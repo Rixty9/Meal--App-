@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    <! -- gradient background -->
+    color: #5761B2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#searchInput {
+    padding: 7px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#searchButton {
+    padding: 6px 10px;
+    border-radius: 25% 10%;
+    background-color: #555;
+    color: #fff;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.meal-card {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px 8px grey;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+
+.meal-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.meal-card h3 {
+    margin: 10px 0;
+}
+
+.meal-card p {
+    margin: 0;
+    font-size: 13px;
+}
